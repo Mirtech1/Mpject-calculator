@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="bg-dark">
+    <section class="container">
+        
+        <div id="input" class="formm-control">
+        </div>
+        <table class="table-responsive">
+
+                <tr>
+                    <td><button onclick="myFunction(7)" value="7" class="btn btn-light btn-lg " id="seven">7</button></td>
+                    <td><button onclick="myFunction(8)" value="8" class="btn btn-light btn-lg">8</button></td>
+                    <td><button onclick="myFunction(9)" value="9" class="btn btn-light btn-lg">9</button></td>
+                    <td><button onclick="myOperatorsFunction('/')" value="/" class="btn btn-primary btn-lg">/</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="myFunction(4)" value="4" class="btn btn-light btn-lg ">4</button></td>
+                    <td><button onclick="myFunction(5)" value="5" class="btn btn-light btn-lg">5</button></td>
+                    <td><button onclick="myFunction(6)" value="6" class="btn btn-light btn-lg">6</button></td>
+                    <td><button onclick="myOperatorsFunction('*')" value="*" class="btn btn-primary btn-lg">x</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="myFunction(1)" value="1" class="btn btn-light btn-lg">1</button></td>
+                    <td><button onclick="myFunction(2)" value="2" class="btn btn-light btn-lg">2</button></td>
+                    <td><button onclick="myFunction(3)" value="3" class="btn btn-light btn-lg">3</button></td>
+                    <td><button onclick="myOperatorsFunction('-')" value="-" class="btn btn-primary btn-lg">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="myFunction(0)" value="0" class="btn btn-light btn-lg">0</button></td>
+                    <td><button onclick="myOperatorsFunction('.')" value="." class="btn btn-light btn-lg">.</button></td>
+                    <td><button onclick="myFunction('')" class="btn btn-light btn-lg" >C</button></td>
+                    <td><button onclick="myOperatorsFunction('+')" value="+" class="btn btn-primary btn-lg">+</button></td>
+                </tr>
+        </table>
+        <button onclick="equalsTo()" class="btn btn-danger btn-lg btn-2 mt-1">=</button>
+    </section>
+</body>
+<script src="js.js"></script>
+</html>

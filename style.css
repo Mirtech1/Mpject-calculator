@@ -1,0 +1,19 @@
+.btn{
+    width: 100px;
+}
+div{
+    width: 405px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    background-color: white;
+    
+}
+.btn-2{
+    width: 405px;
+}
+#input{
+    text-align: right;
+    font-size: 40px;
+
+}
